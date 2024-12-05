@@ -1,0 +1,254 @@
+/*
+ * Author: Antoine d'Otreppe de Bouvette
+ * Website: http://www.aspyct.org
+ */
+
+body {
+	font-family: verdana, sans-serif;
+	/*font-size: 1em;*/
+	font-size: 0.9em;
+	line-height: 1.3em;
+	margin: 3px;
+	background-color: white;
+}
+
+h1 {
+	margin-top: 0px;
+	font-family: "times new roman", sans-serif;
+	color: #4265a7;
+}
+
+h2 {
+	font-weight: normal;
+	font-style: italic;
+}
+
+img {
+	border: 0px none;
+}
+
+p {
+	margin-left: 15px;
+}
+
+table {
+	border-spacing: 0px;
+}
+
+tr {
+	vertical-align: top;
+}
+
+td {
+	padding: 3px;
+}
+
+th {
+	border-bottom: 1px solid lightgray;
+}
+
+ul {
+	margin-top: 0px;
+}
+
+input, textarea {
+	border: 1px solid lightgray;
+}
+
+a:link, a:visited {
+	color:  #009900; /* #fa843a; */
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.dirObject {
+	color: blue;
+}
+
+#important {
+	font-size: 1.2em;
+}
+
+#news h2, #spotlight h2 {
+	margin: 0px;
+	font-family: "times new roman", sans-serif;
+	color: #4265a7;
+}
+
+#news, #spotlight {
+	width: 50%;
+	vertical-align: top;
+}
+
+.ruler {
+	margin: 0px auto 10px auto;
+	width: 70%;
+	border-top: 1px solid #4265a7;
+}
+
+#homeruler {
+	margin: 20px auto 35px auto;
+	width: 80%;
+	border-top: 1px solid #4265a7;
+}
+
+#header, #footer {
+	clear: left;
+}
+
+#content {
+	padding: 10px;
+	margin-left: 170px;
+	margin-bottom: 10px;
+	border: 1px dashed #659aff;
+	/* min-height:410px; */
+	/* *+min-height: 445px; */
+	min-height: 28.3em;
+	*+min-height: 31em;
+	height:auto !important; /* Hack for IE6 */
+}
+
+#morenews {
+	text-align: right;
+	/*padding: 5px; */
+}
+
+#moredownloads {
+	text-align: right;
+}
+
+#menu {
+	padding: 5px;
+	float: left;
+	width: 160px;
+}
+
+#menu ul {
+	padding: 0px;
+	padding-left: 30px;
+	margin: 0px 0px 18px 0px;
+	list-style-type: none;
+	text-align: left;
+}
+
+#menu h1 {
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0px 0px 7px 0px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.8em;
+	margin-left: 180px;
+	color: #AAAAAA;
+}
+
+#footer a {
+	color: #AAAAAA;
+	text-decoration: underline;
+}
+
+#object {
+	border: 1px solid lightgray;
+	padding: 10px;
+	margin: 5px;
+}
+
+#preview {
+	padding: 10px;
+	border: 1px solid #fa843a;
+	margin-bottom: 30px;
+}
+
+#dlList {
+	 margin-left: 130px;
+	 padding: 10px 0px 0px 0px;
+}
+
+.newsitem, .hotlink {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.newsitem .title {
+	font-weight: bold;
+}
+
+.time {
+	color: gray;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+.bordered {
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid lightgray;
+}
+
+.hotlink .link {
+	margin-top: 10px;
+}
+
+li .important {
+	font-weight:bold;
+}
+
+.submenu {
+	font-weight: normal;
+	font-style: italic;
+	margin: 0px 0px 0px 8px;
+	font-family: "times new roman", sans-serif;
+	color: #4265a7;
+}
+
+.noparagraph {
+	margin-bottom: 0.8em;
+}
+
+.nolink {
+	text-decoration:none
+}
+
+/* Download */
+.hashsum {
+	margin-left: 5px;
+	/*font-weight: bold;*/
+	font-style: italic;
+}
+
+.warning {
+	margin-left: 5px;
+	font-style: italic;
+	color: red;
+}
+
+.warningText {
+	margin-left: 5px;
+}
+
+/* Paypal */
+table.paypal {
+	text-align: center;
+	font-weight: bold;
+	border-width: 0px;
+	border-collapse: collapse;
+	padding: 1px;
+	width: 270px;
+	margin-left: 10px;
+	margin-bottom:16px; /* IE/FF hack to have a common behaviour for 'p' tag */
+}
+
+p.paypal {
+	margin-bottom:0px; /* IE/FF hack to have a common behaviour for 'p' tag */
+}
+
+.paypalButton {
+	border-color: white;
+	border-width: 0px;
+}
